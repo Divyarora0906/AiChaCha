@@ -1,0 +1,350 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+/* Typography */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Space Grotesk', sans-serif;
+  font-weight: 600;
+  line-height: 1.2;
+  color: #1a202c;
+}
+
+.ai-text {
+  background: #FFDD57;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 700;
+}
+
+/* Layout */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.section-content {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+  min-height: 400px;
+}
+
+.section-text {
+  flex: 1;
+}
+
+.section-title {
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+  color: white;
+}
+.aiimg{
+  height: 400px;
+}
+.section-description {
+  font-size: 1.125rem;
+  color: rgb(6, 6, 6);
+  margin-bottom: 2rem;
+  line-height: 1.7;
+}
+.desc-head{
+  color: white;
+}
+/* Header */
+.header {
+  background: #FFDD57;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.nav {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 1rem 0;
+}
+
+.logo-placeholder h1 {
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: #1a202c;
+}
+
+.logo-image {
+  max-height: 40px;
+  width: auto;
+}
+
+/* Hero Section */
+.hero {
+  padding: 120px 0 80px;
+  background-color: #222831;
+}
+
+.hero-content {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+  min-height: 500px;
+}
+
+.hero-left {
+  flex: 1;
+}
+
+.hero-right {
+  flex: 1;
+}
+
+.hero-title {
+  font-size: 3.5rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  line-height: 1.1;
+  color: white;
+}
+
+.hero-subtitle {
+  font-size: 1.25rem;
+  color: #ffffff;
+  margin-bottom: 2.5rem;
+  line-height: 1.6;
+}
+
+/* Image Placeholder */
+.image-placeholder {
+  height: 400px;
+  width: 400px;
+  background: #f7fafc;
+  border: 2px dashed #cbd5e0;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #718096;
+  font-size: 1.125rem;
+}
+.image-placeholder > img{
+  border-radius: 20px;
+  border: 7px solid #FFDD57;
+}
+
+.hero-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 12px;
+}
+
+/* About Section */
+.about-section {
+  padding: 80px 0;
+  background: white;
+}
+
+.feature-list {
+  display: grid;
+  gap: 1rem;
+}
+
+.feature-item {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem;
+  background: #FFDD57;
+  border-radius: 12px;
+  border: 1px solid #222831;
+  transition: transform 0.3s ease;
+}
+
+.feature-item:hover {
+  transform: translateY(-2px);
+}
+
+.feature-icon {
+  font-size: 1.5rem;
+}
+
+/* Chacha Section */
+.chacha-section {
+  padding: 80px 0;
+  background: #1a202c;
+}
+
+.chacha-features {
+  display: grid;
+  gap: 1.5rem;
+}
+
+.chacha-feature {
+  display: flex;
+  gap: 1rem;
+  padding: 1.5rem;
+  background: white;
+  border-radius: 12px;
+  border: 1px solid #e2e8f0;
+  transition: transform 0.3s ease;
+}
+
+.chacha-feature:hover {
+  transform: translateY(-3px);
+}
+
+.chacha-feature-icon {
+  font-size: 2rem;
+  flex-shrink: 0;
+}
+.head-title
+{
+  color: black;
+}
+#col{
+  display: flex;
+  flex-direction: column;
+  height: 100px;
+  justify-content: space-around;
+}
+.chacha-feature-content{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  /* width: 3; */
+  margin: auto;
+  width: 300px;
+}
+.chacha-feature-content h3 {
+  font-size: 1.125rem;
+  margin-bottom: 0.5rem;
+  color: rgb(0, 0, 0);
+}
+
+.chacha-feature-content p {
+  color: #4a5568;
+  line-height: 1.5;
+}
+
+/* Chacha Visual */
+.chacha-visual {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  flex: 1;
+}
+
+.chacha-chat-bubble {
+  background: white;
+  border-radius: 20px;
+  padding: 20px 25px;
+  border: 1px solid #e2e8f0;
+  max-width: 280px;
+  animation: float 3s ease-in-out infinite;
+}
+
+.chacha-chat-bubble p {
+  margin: 0;
+  color: #2d3748;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+.chacha-character {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.chacha-avatar {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.chacha-emoji {
+  font-size: 2rem;
+}
+
+.chacha-name {
+  font-weight: 600;
+  color: #ffffff;
+  font-size: 1.125rem;
+}
+
+/* Animations */
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .container {
+    padding: 0 15px;
+  }
+
+  .section-content {
+    flex-direction: column;
+    gap: 40px;
+    text-align: center;
+  }
+
+  .hero-content {
+    flex-direction: column;
+    gap: 40px;
+    text-align: center;
+  }
+
+  .hero-title {
+    font-size: 2.5rem;
+  }
+
+  .section-title {
+    font-size: 2rem;
+  }
+
+  .image-placeholder {
+    height: 290px;
+    width: 290px;
+  }
+  .aiimg{
+  height: 290px;
+
+}
+
+@media (max-width: 480px) {
+  .hero {
+    padding: 100px 0 60px;
+  }
+
+  .hero-title {
+    font-size: 2rem;
+  }
+
+  .section-title {
+    font-size: 1.75rem;
+  }
+
+  .logo-placeholder h1 {
+    font-size: 1.5rem;
+  }
+}
+
+/* Smooth Scrolling */
+html {
+  scroll-behavior: smooth;
+}
+}

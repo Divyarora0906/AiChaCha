@@ -1,0 +1,87 @@
+[
+{
+ "name":"ChatGPT",
+ "short":"ChatGPT is an AI-powered conversational assistant developed by OpenAI. It understands and generates human-like text, enabling users to ask questions, get writing help, code assistance, and more. Based on advanced language models, ChatGPT is widely used for productivity, learning, and creativity across various fields.",
+ "Category":"MultiMedia",
+ "Free":true,
+ "Free Plan":"Limited GPT-3.5",
+ "Paid Plan":1950,
+ "Website":" chat.openai.com",
+ "img":"https://res.cloudinary.com/dlf0gh6yl/image/upload/v1751885373/chatgpticon_mhpkfo.png",
+ "Rating":5,
+ "Api":true
+},
+{
+"name":"Midjourney",
+"short":"Midjourney is an AI-powered image generation tool that creates stunning visuals from text prompts. Known for its artistic and imaginative style, it’s widely used by designers, marketers, and creatives. Accessible through Discord, Midjourney offers limited free trials and paid plans, making it a popular choice for AI-generated art.",
+ "Category":"Image",
+ "Free":false,
+ "Paid Plan":830,
+ "Website":"https://www.midjourney.com",
+"keyword":["Image","Drawing","Phot","Avator"],
+"img":"https://res.cloudinary.com/dlf0gh6yl/image/upload/v1751891291/Midjourney-Logo_gmwq1g.png",
+"Ratting":4.7,
+"Api":false
+},
+{
+ "name":"Canva AI",
+ "short":"Canva AI is an AI-powered design assistant within Canva that helps users create stunning visuals effortlessly. It offers features like Magic Design, Magic Write (AI text generation), and AI image generation. Ideal for social media, presentations, and marketing, Canva AI simplifies design for beginners and professionals without needing advanced skills.",
+ "Category":"MultiMedia",
+ "Free":true,
+ "Free Plan":true,
+ "Paid Plan":333,
+ "Website":"https://www.canva.com",
+ "keyword":["Video","Animation","Avatar"],
+ "img":"https://res.cloudinary.com/dlf0gh6yl/image/upload/v1751887832/Canva-Logo-Design-Platform-Icon_vasqmt.webp",
+ "Rating":4.7,
+ "Api":true
+},
+{
+ "name":"Notion",
+ "short":"Notion AI is an intelligent writing assistant integrated into Notion, helping users generate, summarize, and edit content. It streamlines note-taking, task management, and documentation with smart suggestions and automation. Ideal for students, professionals, and teams, it enhances productivity directly within Notion’s all-in-one workspace.",
+ "Category":"Productivity",
+ "Paid Plan":1580,
+ "Website":"https://www.notion.com/",
+"keyword":["Task","Assistant","schedular","Management"],
+"img":"https://res.cloudinary.com/dlf0gh6yl/image/upload/v1751892561/Notion_jrztkm.png",
+"Rating":4.5,
+"Api":true
+},
+{
+ "name":"Adobe Firefly",
+ "short":"Adobe Firefly is a generative AI suite integrated into Creative Cloud apps and available via web/mobile. It enables text‑to‑image, video, vector, and audio creation, plus generative fill and recolor. Trained on licensed/public‑domain data, it ensures commercial safety and includes collaborative features like Firefly Boards.",
+ "Category":"Image",
+ "Free":true,
+ "Paid Plan":1675,
+ "Website":"https://firefly.adobe.com",
+ "keyword":["Design","graphic","Animation","Image"],
+ "img":"https://res.cloudinary.com/dlf0gh6yl/image/upload/v1751889606/adobe-firefly_tnnlyc.jpg",
+ "Rating":4.6,
+ "Api":true
+},
+{
+ "name":"Grammarly",
+ "short":"Grammarly AI is an intelligent writing assistant that enhances grammar, spelling, style, and tone in real time. Integrated across browsers, desktop apps, and mobile, it also offers generative features like paraphrasing, drafting, and tone adjustment through GrammarlyGO. Trusted by millions for clear, professional writing",
+ "Category":"Writing",
+ "Free":true,
+ "Paid Plan":870,
+ "Website":"https://www.grammarly.com/",
+ "keyword":["Grammer","spelling","Style","Sentence"],
+ "img":"https://res.cloudinary.com/dlf0gh6yl/image/upload/v1751967565/grammarly_oup2ex.png",
+ "Rating":4.6,
+ "Api":true
+},
+{
+ "name":"Pictory",
+ "short":"Pictory AI is a video creation tool that transforms text, blog posts, or scripts into engaging videos using AI. It offers automatic captioning, voiceovers, and stock footage integration. Ideal for marketers, educators, and content creators, Pictory simplifies video editing without requiring advanced skills or software.",
+ "Category":"Video",
+ "Free":false,
+ "Paid Plan":"RS 1,580/Month",
+ "Website":"https://pictory.ai",
+"keyword":["Video","Animation","Avatar"],
+"img":"https://res.cloudinary.com/dlf0gh6yl/image/upload/v1751892146/Pictory_r3uhnh.jpg",
+"Rating":4.6,
+"Api":true
+}
+]
+
