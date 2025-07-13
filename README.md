@@ -1,12 +1,54 @@
-# React + Vite
+# 🚀 AI Chacha – Your AI Tool Matchmaker 🧠
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to **AI Chacha**, the ultimate platform that helps you discover the best AI tools for your unique use-case. Whether you're a student, developer, creator, or business owner – AI Chacha finds the *right tool at the right time* using smart filters and suggestions.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🌟 Features
 
-## Expanding the ESLint configuration
+- 🔍 **Use-Case Based Recommendations**  
+  Get the best AI tools suggested based on what you want to do.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- 🛠️ **1000+ AI Tools Aggregated**  
+  A huge and growing library of categorized AI tools.
+
+- ⚙️ **Smart Filters**  
+  Filter tools by pricing, API availability, rating, and category.
+
+- 📩 **Suggest Your Tool**  
+  Submit your own AI tool and get it featured on the platform.
+
+- 📊 **Dashboard for Insights (Coming Soon)**  
+  See trending tools, categories, and user-based analytics.
+
+---
+
+## 🧪 MVP Status
+
+✅ MVP is now **LIVE** with core features including:
+- Tool listing
+- Filtering by category
+- Use-case suggestions
+- JSON-based data handling
+
+We're actively improving the UI, features, and user experience.
+
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend**: React.js  
+- **Styling**: CSS / Tailwind  
+- **Data Handling**: JSON-based structure  
+- **Hosting**: Firebase (temporary for MVP)  
+- **Future Add-ons**: Node.js, MongoDB, Express, Admin Panel
+
+---
+
+## 🚀 Getting Started (Local Setup)
+
+```bash
+git clone https://github.com/your-username/ai-chacha.git
+cd ai-chacha
+npm install
+npm start
